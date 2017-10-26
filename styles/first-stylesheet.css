@@ -1,0 +1,56 @@
+body{
+  background-color: azure;
+}
+header{
+  background-color: floralwhite;
+  margin:auto;
+  width: 75%;
+}
+img{
+  border: 2px solid white;
+  border-radius:10px;
+}
+h1{
+  color:blue;
+  padding-left:200px;
+}
+h1:hover{
+  color:orange;
+}
+#main{
+  padding-left:10em;
+  padding-right:10em;
+  border: 2px solid blue;
+  width:300px;
+  height:300px;
+}
+nav{
+  border: 1px solid blue;
+  background-color: aquamarine;
+}
+nav a:hover{
+  color:red;
+}
+ul{
+  list-style-type: lower-greek;
+}
+.pop{
+  width:50px;
+  height:75px;
+}
+.pop:hover{
+  width: 150px;
+  height:200px;
+}
+article p::first-letter{
+  font-size:2em;
+  color:firebrick;
+}
+footer{
+  text-align: center;
+  background-color: darkgrey;
+  border-top: dashed;
+  border-left-style: double;
+  border-right-style: groove;
+  border-bottom-style: solid;
+}

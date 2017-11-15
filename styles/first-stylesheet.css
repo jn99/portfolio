@@ -1,56 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
+  background-color: black;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper{
+  background-color: white;
+  margin-left: 12.5vmax;
+  width: 75vmax;
+  min-width: 100vmin;
+  height: 100vmin;
+}
+
+header{
+  width: 100%;
+  min-width: 100%;
+  white-space: nowrap;
+}
+
+header h1{
+  background-color: floralwhite;
+  color: blue;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding: 1em 0 .25em;
+}
+
+.main-nav ul li{
+  width: 48%;
+  float: left;
+  display: inline-flex;
+  list-style-type: none;
+  text-align: center;
+  background-color: mediumaquamarine;
+  padding: .25rem;
+  border-left: 2px solid purple; 
+}
+
+.main-nav ul li:first-child{
+  border-left: none;
+}
+
+.main-nav ul li a{
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+section{
+  height: 70vh;
+}
+
+aside{
+  clear: both;
+  width: 30%;
+  height: 100%;
+  float: left;
   background-color: azure;
 }
-header{
-  background-color: floralwhite;
-  margin:auto;
-  width: 75%;
+
+aside ul li{
+  list-style-type: none;
+  padding: 1.5rem;
 }
-img{
-  border: 2px solid white;
-  border-radius:10px;
+
+aside ul li a{
+  text-decoration: none;
 }
-h1{
-  color:blue;
-  padding-left:200px;
+
+aside ul li a:hover{
+  color: blue;
+  text-decoration: underline;
 }
-h1:hover{
-  color:orange;
+
+.main-content{
+  background-color: bisque;
+  height: 100%;
 }
-#main{
-  padding-left:10em;
-  padding-right:10em;
-  border: 2px solid blue;
-  width:300px;
-  height:300px;
+
+figure{
+  text-align: center;
+  padding-top: 5rem;
 }
-nav{
-  border: 1px solid blue;
-  background-color: aquamarine;
-}
-nav a:hover{
-  color:red;
-}
-ul{
-  list-style-type: lower-greek;
-}
-.pop{
-  width:50px;
-  height:75px;
-}
-.pop:hover{
-  width: 150px;
-  height:200px;
-}
-article p::first-letter{
-  font-size:2em;
-  color:firebrick;
-}
+
 footer{
+  clear: both;
   text-align: center;
   background-color: darkgrey;
-  border-top: dashed;
-  border-left-style: double;
-  border-right-style: groove;
-  border-bottom-style: solid;
+  padding: 1rem;
 }

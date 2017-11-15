@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Jaimie Portfolio</title>
+  <meta charset="UTF-8" />
+  <title>Jaimie's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
   <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <script src="https://use.fontawesome.com/548ca93809.js"></script>
 </head>
   
 <body>
-  <header>
-    <!-- My Profile Picture -->
-    <h1>Jaimie Nguyen</h1>
-    <img src="images/meProfile.jpg" alt="Jaimie Nguyen" id="main">
+  <article class="wrapper">
+    <header>
+      <h1>Jaimie's Portfolio</h1>
+      <nav class="main-nav clearfix">
+        <ul>
+          <li><a href="index.html"><i class="fa fa-home" aria-hidden="true">Home</i></a></li>
+          <li><a href="aboutMe.html">About Me</a></li>
+        </ul>      
+      </nav>
+    </header>
     
-    <nav>
-      <ul>
-        <li><a href="aboutMe.html">About Me</a></li>
-        <li><a href="https://github.com/jn99/semantic_tags_JN.git">HW Week 1 - Semantic Tags ||</a><img src="images/semanticTags.png" alt="HW Week 1 ScreenShot" class="pop"></li>
-        <li><a href="https://github.com/jn99/portfolio.git">HW Week 2 - Porfolio ||</a><img src="images/portfolio.png" alt="HW Week 2 ScreenShot" class="pop"></li>
-        <li><a href="#">HW Week 3 - First CSS Lesson ||</a><img src="images/cssToPorfolio.PNG" alt="HW Week 3 ScreenShot" class="pop"></li>
-        <li><a href="#">HW Week 4 - Coming soon ||</a><img src="images/..." alt="Project 4 ScreenShot"></li>
-        <li><a href="#">HW Week 5 - Coming soon ||</a><img src="images/..." alt="Project 5 ScreenShot"></li>
-      </ul>      
-    </nav>
-  </header>
+    <section class="clearfix">
+      <aside>
+        <ul>
+          <li><a href="https://github.com/jn99/semantic_tags_JN.git">Project 1 - Semantic Tags</a></li>
+          <li><a href="https://github.com/jn99/portfolio.git">Project 2 - Create Portfolio</a></li>
+          <li><a href="https://github.com/jn99/box-model-demo.git">Project 3 - First CSS Lesson</a></li>
+          <li><a href="https://github.com/jn99/mockup-practice.git">Project 4 - Mockup Practice</a></li>
+          <li><a href="#">Project 5 - Improve Portfolio Design</a></li>
+        </ul>
+      </aside>
+      
+      <article class="main-content">
+        <figure>
+          <img src="images/meProfile.jpg" alt="Jaimie Nguyen">
+          <figcaption>Evertitur persequeris in pro, aliquid fastidii vis ut. Ne meis scripserit duo. Bonorum veritus vituperata ea ius, mea sale laboramus ex. Probo instructior comprehensam ius eu. Graece appareat nam ex, sea vivendo suavitate no.</figcaption>
+        </figure>
+      </article>
+    </section>
+    
+    <footer class="clearfix">
+      <p>&copy; 2017 || Jaimie Nguyen</p>
+    </footer>
   
-  <article>
-    <p>Write some description ...</p>
   </article>
-  
-  <footer>
-  <!-- copyright info, secondary navigation -->
-    <p>&copy; 2017 || Jaimie Nguyen</p>
-  </footer>
-
 </body>
 </html>
